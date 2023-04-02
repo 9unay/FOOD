@@ -25,6 +25,9 @@ header nav a {
   color: #8c8999;
   margin-right: 30px;
 }
+header nav a:hover {
+  color: #74bebc;
+}
 header nav .home-color {
   color: #74bebc;
 }
@@ -52,6 +55,11 @@ header nav .home-color {
   border-radius: 5px;
   background-color: #38b6c1;
   color: white;
+}
+#beautiful .box .btn:hover {
+  border: 3px solid #74bebc;
+  background-color: white;
+  color: #74bebc;
 }
 #beautiful .box .imgbox {
   width: 120px;
