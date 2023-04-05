@@ -18,7 +18,7 @@ header {
   padding: 20px 0;
 }
 header .imgbox {
-  width: 40px;
+  width: 4%;
 }
 header nav a {
   font-size: 20px;
@@ -30,6 +30,16 @@ header nav a:hover {
 }
 header nav .home-color {
   color: #74bebc;
+}
+@media screen and (max-width: 767) {
+  header nav nav a {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  header nav nav a {
+    font-size: 30px;
+  }
 }
 
 #beautiful {
@@ -62,7 +72,7 @@ header nav .home-color {
   color: #74bebc;
 }
 #beautiful .box .imgbox {
-  width: 120px;
+  width: 30%;
   margin: 20px 0 10px;
 }
 #beautiful .box h4 {
@@ -80,7 +90,6 @@ header nav .home-color {
     font-size: 10px;
   }
 }
-
 #thehome {
   background-color: #f1f8f9;
 }
